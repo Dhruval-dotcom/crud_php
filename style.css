@@ -1,0 +1,36 @@
+.primary {
+    font-size: 10px;
+    padding: 5px 9px;
+    color: white;
+    background-color: rgb(89, 89, 223);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+    width: 27px;
+}
+
+.update,
+.delete {
+    border: none;
+    background: transparent;
+}
+.galleryouter{
+    display:flex;
+}
+.galleryinner{
+    display:flex;
+    flex-direction:row;
+}
+.deleteimage{
+    border:none;
+    margin-right:4px;
+    color:white;
+    font-size:10px;
+    background-color:green;
+    padding:2px 8px;
+    margin-bottom:2px;
+}
